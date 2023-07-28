@@ -1,19 +1,30 @@
-**App Name**: HappyPlantsApp
+# HappyPlantsApp
 
-**Functionality**: The purpose of the app is to help users keep track of their plants, specifically their watering schedules. 
+## Description
+HappyPlantsApp is a simple and intuitive SwiftUI application that helps users manage their plants and their watering schedules.
 
-1. **Home Screen**: The home screen of the application lists all the plants added by the user. For each plant, a detailed view can be accessed by clicking on the plant's row. This screen also provides the ability to add a new plant via a button in the navigation bar. 
+## Features
 
-2. **Plant Detail Screen**: The detail view for each plant displays the name of the plant, the next watering date, and options to "Mark as watered" or "Delete". "Mark as watered" updates the next watering date based on the frequency set for the plant. "Delete" removes the plant from the list.
+1. **Home Screen**: List of all user-added plants. Users can access the detail view of each plant by clicking on its row. The option to add a new plant is also available via a button in the navigation bar.
 
-3. **Add Plant Screen**: This screen allows users to add a new plant to their list. Users can specify the name of the plant, choose a color to represent the plant, and set a watering frequency.
+2. **Plant Detail Screen**: This view displays the plant's name, the next watering date, and options to "Mark as watered" or "Delete". Clicking "Mark as watered" updates the next watering date according to the frequency set for the plant. The "Delete" button removes the plant from the list.
 
-**User Interface**: The user interface is designed to be clean and intuitive. The navigation bar includes a title and a button for adding new plants. Individual plant rows display the name of the plant, its color, and the next watering date. The Add Plant Screen and Plant Detail Screen follow a similar design aesthetic, with inputs and buttons styled consistently for a uniform user experience.
+3. **Add Plant Screen**: Users can add a new plant to their list on this screen. Fields include the plant's name, color, and watering frequency.
 
-**Technical Aspects**: The app is developed using SwiftUI and leverages Combine for handling asynchronous events and data flow. The app uses the MVVM architectural pattern, with a PlantStore class acting as the central data store. 
+## User Interface
 
-Each plant is an instance of the Plant structure, which includes properties for the plant's name, color, watering frequency, and next watering date. The PlantStore class includes functions for adding a plant, removing a plant, and updating the watering date of a plant.
+The UI is designed to be clean and intuitive. The navigation bar on the home screen includes a title and an add button. Each plant row showcases the plant's name, color, and next watering date. The Add Plant Screen and Plant Detail Screen follow the same design aesthetic, creating a uniform user experience.
 
-**Features**: The application features CRUD (Create, Read, Update, Delete) functionality for plant objects. Users can create a new plant, view details of an existing plant, update the watering date of a plant, and delete a plant.
+## Technical Details
 
-In summary, HappyPlantsApp is a simple, user-friendly application that assists users in managing the watering schedule of their plants. With its intuitive interface and easy-to-use functionality, it makes plant care a breeze.
+The app is developed using SwiftUI and employs Combine for handling asynchronous events and data flow. The MVVM architectural pattern is followed, with a PlantStore class acting as the central data store.
+
+Each plant is an instance of the Plant structure, which includes properties for the plant's name, color, watering frequency, and next watering date. The PlantStore class includes functions for adding, removing, and updating the watering date of a plant.
+
+## Functionality
+
+HappyPlantsApp offers CRUD (Create, Read, Update, Delete) functionality for plant objects. Users can create a new plant, view the details of an existing plant, update the watering date, and delete a plant.
+
+## Conclusion
+
+HappyPlantsApp is a user-friendly application that makes plant care a breeze. With its clean interface and easy-to-use features, users can efficiently manage the watering schedule of their plants.
