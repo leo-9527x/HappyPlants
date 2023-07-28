@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F459C75A2A72C1C800E01C33 /* HappyPlantsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F459C7592A72C1C800E01C33 /* HappyPlantsApp.swift */; };
+		F459C75C2A72C1C800E01C33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F459C75B2A72C1C800E01C33 /* ContentView.swift */; };
+		F459C75E2A72C1CA00E01C33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F459C75D2A72C1CA00E01C33 /* Assets.xcassets */; };
+		F459C7612A72C1CA00E01C33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F459C7602A72C1CA00E01C33 /* Preview Assets.xcassets */; };
+		F459C76B2A72C1CB00E01C33 /* HappyPlantsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F459C76A2A72C1CB00E01C33 /* HappyPlantsTests.swift */; };
+		F459C7752A72C1CB00E01C33 /* HappyPlantsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F459C7742A72C1CB00E01C33 /* HappyPlantsUITests.swift */; };
+		F459C7772A72C1CB00E01C33 /* HappyPlantsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F459C7762A72C1CB00E01C33 /* HappyPlantsUITestsLaunchTests.swift */; };
+		F459C7842A72C25100E01C33 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F459C7832A72C25100E01C33 /* Plant.swift */; };
+		F459C7862A72C2B500E01C33 /* AddPlantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F459C7852A72C2B500E01C33 /* AddPlantView.swift */; };
+		F459C7882A72C41000E01C33 /* PlantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F459C7872A72C41000E01C33 /* PlantDetailView.swift */; };
+		F459C78A2A72D18900E01C33 /* PlantStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F459C7892A72D18900E01C33 /* PlantStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F459C7672A72C1CB00E01C33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F459C74E2A72C1C800E01C33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F459C7552A72C1C800E01C33;
+			remoteInfo = HappyPlants;
+		};
+		F459C7712A72C1CB00E01C33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F459C74E2A72C1C800E01C33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F459C7552A72C1C800E01C33;
+			remoteInfo = HappyPlants;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F459C7562A72C1C800E01C33 /* HappyPlants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyPlants.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F459C7592A72C1C800E01C33 /* HappyPlantsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyPlantsApp.swift; sourceTree = "<group>"; };
+		F459C75B2A72C1C800E01C33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F459C75D2A72C1CA00E01C33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F459C7602A72C1CA00E01C33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F459C7662A72C1CB00E01C33 /* HappyPlantsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyPlantsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F459C76A2A72C1CB00E01C33 /* HappyPlantsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyPlantsTests.swift; sourceTree = "<group>"; };
+		F459C7702A72C1CB00E01C33 /* HappyPlantsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyPlantsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F459C7742A72C1CB00E01C33 /* HappyPlantsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyPlantsUITests.swift; sourceTree = "<group>"; };
+		F459C7762A72C1CB00E01C33 /* HappyPlantsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyPlantsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F459C7832A72C25100E01C33 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		F459C7852A72C2B500E01C33 /* AddPlantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlantView.swift; sourceTree = "<group>"; };
+		F459C7872A72C41000E01C33 /* PlantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailView.swift; sourceTree = "<group>"; };
+		F459C7892A72D18900E01C33 /* PlantStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F459C7532A72C1C800E01C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F459C7632A72C1CB00E01C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F459C76D2A72C1CB00E01C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F459C74D2A72C1C800E01C33 = {
+			isa = PBXGroup;
+			children = (
+				F459C7582A72C1C800E01C33 /* HappyPlants */,
+				F459C7692A72C1CB00E01C33 /* HappyPlantsTests */,
+				F459C7732A72C1CB00E01C33 /* HappyPlantsUITests */,
+				F459C7572A72C1C800E01C33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F459C7572A72C1C800E01C33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F459C7562A72C1C800E01C33 /* HappyPlants.app */,
+				F459C7662A72C1CB00E01C33 /* HappyPlantsTests.xctest */,
+				F459C7702A72C1CB00E01C33 /* HappyPlantsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F459C7582A72C1C800E01C33 /* HappyPlants */ = {
+			isa = PBXGroup;
+			children = (
+				F459C7892A72D18900E01C33 /* PlantStore.swift */,
+				F459C7872A72C41000E01C33 /* PlantDetailView.swift */,
+				F459C7852A72C2B500E01C33 /* AddPlantView.swift */,
+				F459C7832A72C25100E01C33 /* Plant.swift */,
+				F459C7592A72C1C800E01C33 /* HappyPlantsApp.swift */,
+				F459C75B2A72C1C800E01C33 /* ContentView.swift */,
+				F459C75D2A72C1CA00E01C33 /* Assets.xcassets */,
+				F459C75F2A72C1CA00E01C33 /* Preview Content */,
+			);
+			path = HappyPlants;
+			sourceTree = "<group>";
+		};
+		F459C75F2A72C1CA00E01C33 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F459C7602A72C1CA00E01C33 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F459C7692A72C1CB00E01C33 /* HappyPlantsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F459C76A2A72C1CB00E01C33 /* HappyPlantsTests.swift */,
+			);
+			path = HappyPlantsTests;
+			sourceTree = "<group>";
+		};
+		F459C7732A72C1CB00E01C33 /* HappyPlantsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F459C7742A72C1CB00E01C33 /* HappyPlantsUITests.swift */,
+				F459C7762A72C1CB00E01C33 /* HappyPlantsUITestsLaunchTests.swift */,
+			);
+			path = HappyPlantsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F459C7552A72C1C800E01C33 /* HappyPlants */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F459C77A2A72C1CB00E01C33 /* Build configuration list for PBXNativeTarget "HappyPlants" */;
+			buildPhases = (
+				F459C7522A72C1C800E01C33 /* Sources */,
+				F459C7532A72C1C800E01C33 /* Frameworks */,
+				F459C7542A72C1C800E01C33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyPlants;
+			productName = HappyPlants;
+			productReference = F459C7562A72C1C800E01C33 /* HappyPlants.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F459C7652A72C1CB00E01C33 /* HappyPlantsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F459C77D2A72C1CB00E01C33 /* Build configuration list for PBXNativeTarget "HappyPlantsTests" */;
+			buildPhases = (
+				F459C7622A72C1CB00E01C33 /* Sources */,
+				F459C7632A72C1CB00E01C33 /* Frameworks */,
+				F459C7642A72C1CB00E01C33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F459C7682A72C1CB00E01C33 /* PBXTargetDependency */,
+			);
+			name = HappyPlantsTests;
+			productName = HappyPlantsTests;
+			productReference = F459C7662A72C1CB00E01C33 /* HappyPlantsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F459C76F2A72C1CB00E01C33 /* HappyPlantsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F459C7802A72C1CB00E01C33 /* Build configuration list for PBXNativeTarget "HappyPlantsUITests" */;
+			buildPhases = (
+				F459C76C2A72C1CB00E01C33 /* Sources */,
+				F459C76D2A72C1CB00E01C33 /* Frameworks */,
+				F459C76E2A72C1CB00E01C33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F459C7722A72C1CB00E01C33 /* PBXTargetDependency */,
+			);
+			name = HappyPlantsUITests;
+			productName = HappyPlantsUITests;
+			productReference = F459C7702A72C1CB00E01C33 /* HappyPlantsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F459C74E2A72C1C800E01C33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F459C7552A72C1C800E01C33 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					F459C7652A72C1CB00E01C33 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F459C7552A72C1C800E01C33;
+					};
+					F459C76F2A72C1CB00E01C33 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F459C7552A72C1C800E01C33;
+					};
+				};
+			};
+			buildConfigurationList = F459C7512A72C1C800E01C33 /* Build configuration list for PBXProject "HappyPlants" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F459C74D2A72C1C800E01C33;
+			productRefGroup = F459C7572A72C1C800E01C33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F459C7552A72C1C800E01C33 /* HappyPlants */,
+				F459C7652A72C1CB00E01C33 /* HappyPlantsTests */,
+				F459C76F2A72C1CB00E01C33 /* HappyPlantsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F459C7542A72C1C800E01C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F459C7612A72C1CA00E01C33 /* Preview Assets.xcassets in Resources */,
+				F459C75E2A72C1CA00E01C33 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F459C7642A72C1CB00E01C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F459C76E2A72C1CB00E01C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F459C7522A72C1C800E01C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F459C7862A72C2B500E01C33 /* AddPlantView.swift in Sources */,
+				F459C75C2A72C1C800E01C33 /* ContentView.swift in Sources */,
+				F459C7842A72C25100E01C33 /* Plant.swift in Sources */,
+				F459C75A2A72C1C800E01C33 /* HappyPlantsApp.swift in Sources */,
+				F459C7882A72C41000E01C33 /* PlantDetailView.swift in Sources */,
+				F459C78A2A72D18900E01C33 /* PlantStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F459C7622A72C1CB00E01C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F459C76B2A72C1CB00E01C33 /* HappyPlantsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F459C76C2A72C1CB00E01C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F459C7752A72C1CB00E01C33 /* HappyPlantsUITests.swift in Sources */,
+				F459C7772A72C1CB00E01C33 /* HappyPlantsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F459C7682A72C1CB00E01C33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F459C7552A72C1C800E01C33 /* HappyPlants */;
+			targetProxy = F459C7672A72C1CB00E01C33 /* PBXContainerItemProxy */;
+		};
+		F459C7722A72C1CB00E01C33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F459C7552A72C1C800E01C33 /* HappyPlants */;
+			targetProxy = F459C7712A72C1CB00E01C33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F459C7782A72C1CB00E01C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F459C7792A72C1CB00E01C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F459C77B2A72C1CB00E01C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HappyPlants/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HappyPlants;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F459C77C2A72C1CB00E01C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HappyPlants/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HappyPlants;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F459C77E2A72C1CB00E01C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HappyPlantsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyPlants.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HappyPlants";
+			};
+			name = Debug;
+		};
+		F459C77F2A72C1CB00E01C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HappyPlantsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyPlants.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HappyPlants";
+			};
+			name = Release;
+		};
+		F459C7812A72C1CB00E01C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HappyPlantsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HappyPlants;
+			};
+			name = Debug;
+		};
+		F459C7822A72C1CB00E01C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HappyPlantsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HappyPlants;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F459C7512A72C1C800E01C33 /* Build configuration list for PBXProject "HappyPlants" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F459C7782A72C1CB00E01C33 /* Debug */,
+				F459C7792A72C1CB00E01C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F459C77A2A72C1CB00E01C33 /* Build configuration list for PBXNativeTarget "HappyPlants" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F459C77B2A72C1CB00E01C33 /* Debug */,
+				F459C77C2A72C1CB00E01C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F459C77D2A72C1CB00E01C33 /* Build configuration list for PBXNativeTarget "HappyPlantsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F459C77E2A72C1CB00E01C33 /* Debug */,
+				F459C77F2A72C1CB00E01C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F459C7802A72C1CB00E01C33 /* Build configuration list for PBXNativeTarget "HappyPlantsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F459C7812A72C1CB00E01C33 /* Debug */,
+				F459C7822A72C1CB00E01C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F459C74E2A72C1C800E01C33 /* Project object */;
+}
